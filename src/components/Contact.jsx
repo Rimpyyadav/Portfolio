@@ -11,8 +11,6 @@ function Contact() {
         <a href="#" className="border-b">
             {CONTACT.email}
         </a>
-
-
        </div>
     </div>
   )
