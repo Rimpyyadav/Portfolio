@@ -1,11 +1,11 @@
-//import project1 from "../assets/projects/project-1.jpg";
-//import project2 from "../assets/projects/project-2.jpg";
-//import project3 from "../assets/projects/project-3.jpg";
-//import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/project1.jpg";
+import project2 from "../assets/projects/project2.jpg";
+import project3 from "../assets/projects/project3.jpg";
+import project4 from "../assets/projects/project4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I'm a third-year BCA student with a passion for problem-solving and a love for all things tech. I'm always eager to learn and explore new tech stacks, whether it's building sleek websites or diving deep into the latest frameworks. With a knack for web development and a collaborative spirit, I thrive in team environments where creativity meets code.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I'm a MERN-stack web developer, currently diving into app development, always pushing myself to learn something new every day. I've participated in several hackathons, collaborating with teams to bring innovative ideas to life. When I'm not coding, you'll find me expressing my creativity through shuffle and classical dance—because, for me, it's all about balance and rhythm. Let's create, innovate, and groove to the beat of our passions!`;
 
 export const EXPERIENCES = [
   {
@@ -40,32 +40,37 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-   // image: project1,
+    title: "BoundWords",
+    image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A visually appealing bookstore app showcasing an intuitive user interface with features including book listings, advanced search and filtering, and user authentication. ",
+    technologies: [ "Tailwind", "React", "Node.js", "MongoDB"],
+    githubLink:"https://github.com/Rimpyyadav/BoundWords"
   },
   {
-    title: "Task Management App",
-   // image: project2,
+    title: "Portfolio",
+    image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+       "A personal portfolio website showcasing projects, skills, and contact information.",
+    technologies: ["React", "Tailwind", "Framer motion"],
+    githubLink:"https://github.com/Rimpyyadav/Portfolio"
   },
   {
-    title: "Portfolio Website",
-   // image: project3,
+    title: "Youtube" ,
+    image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
+      "Designed to replicate the core features of YouTube, it offers a seamless experience for discovering and watching videos.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    githubLink:"https://github.com/Rimpyyadav/yt_clone"
+
   },
   {
-    title: "Blogging Platform",
-   // image: project4,
+    title: "Fitrack",
+   image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    "The app offers a user-friendly interface for tracking exercise routines, setting goals, and staying motivated.",
+    technologies: [ "Tailwind", "React", "Node.js",],
+    githubLink:"https://github.com/Rimpyyadav/Fitrack"
   },
 ];
 
