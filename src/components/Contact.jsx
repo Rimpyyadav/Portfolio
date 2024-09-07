@@ -28,25 +28,25 @@ function Contact() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedin className=" hover:text-purple-800"/>
+            <FaLinkedin className=" hover:text-pink-500"/>
           </a>
           <a
             href="https://github.com/Rimpyyadav"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaGithub className=" hover:text-purple-800" />
+            <FaGithub className=" hover:text-pink-500" />
           </a>
           <a
             href="https://twitter.com/Rimpyadav"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaTwitter className=" hover:text-purple-800" />
+            <FaTwitter className=" hover:text-pink-500" />
           </a>
 
           <a href="rimpy4216@gmail.com" target="_blank" rel="noopener noreferrer">
-        <FaEnvelope className=" hover:text-purple-800" />
+        <FaEnvelope className=" hover:text-pink-500" />
       </a>
         </motion.div>
 
