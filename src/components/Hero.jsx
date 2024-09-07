@@ -30,7 +30,7 @@ const Hero = () => {
               variants={container(0.5)}
               initial="hidden"
               animate="visible"
-              className="bg-gradient-to-r text-pink-500 bg-clip-text text-4xl tracking-tight text-transparent"
+              className="text-pink-500 text-4xl "
             >
               {" "}
               Full Stack Developer
